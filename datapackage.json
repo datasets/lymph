@@ -1,9 +1,23 @@
 {
+    "licences": [
+        {
+            "path": "http://opendatacommons.org/licenses/pddl/",
+            "title": "Open Data Commons Public Domain Dedication and Licence (PDDL)",
+            "name": "odc-pddl"
+        }
+    ],
     "title": "Lymph",
     "resources": [
         {
-            "format": "csv",
+            "encoding": "utf-8",
+            "profile": "tabular-data-resource",
+            "path": "data\\lymph.csv",
+            "mediatype": "text/csv",
+            "name": "lymph",
             "schema": {
+                "missingValues": [
+                    ""
+                ],
                 "fields": [
                     {
                         "type": "string",
@@ -100,31 +114,16 @@
                         "name": "class",
                         "format": "default"
                     }
-                ],
-                "missingValues": [
-                    ""
                 ]
             },
-            "profile": "tabular-data-resource",
-            "mediatype": "text/csv",
-            "encoding": "utf-8",
-            "path": "data\\lymph.csv",
-            "name": "lymph"
+            "format": "csv"
         }
     ],
     "sources": [
         {
-            "title": "OpenML - lymph",
-            "path": "https://www.openml.org/d/10"
+            "path": "https://www.openml.org/d/10",
+            "title": "OpenML - lymph"
         }
     ],
-    "name": "lymp",
-    "licences": [
-        {
-            "title": "Open Data Commons Public Domain Dedication and Licence (PDDL)",
-            "path": "http://opendatacommons.org/licenses/pddl/",
-            "name": "odc-pddl"
-        }
-    ],
-    "profile": "tabular-data-package"
+    "name": "lymph"
 }
