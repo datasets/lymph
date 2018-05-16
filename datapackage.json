@@ -1,0 +1,130 @@
+{
+    "title": "Lymph",
+    "resources": [
+        {
+            "format": "csv",
+            "schema": {
+                "fields": [
+                    {
+                        "type": "string",
+                        "name": "lymphatics",
+                        "format": "default"
+                    },
+                    {
+                        "type": "boolean",
+                        "name": "block_of_affere",
+                        "format": "default"
+                    },
+                    {
+                        "type": "boolean",
+                        "name": "bl_of_lymph_c",
+                        "format": "default"
+                    },
+                    {
+                        "type": "boolean",
+                        "name": "bl_of_lymph_s",
+                        "format": "default"
+                    },
+                    {
+                        "type": "boolean",
+                        "name": "by_pass",
+                        "format": "default"
+                    },
+                    {
+                        "type": "boolean",
+                        "name": "extravasates",
+                        "format": "default"
+                    },
+                    {
+                        "type": "boolean",
+                        "name": "regeneration_of",
+                        "format": "default"
+                    },
+                    {
+                        "type": "boolean",
+                        "name": "early_uptake_in",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "lym_nodes_dimin",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "lym_nodes_enlar",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "changes_in_lym",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "defect_in_node",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "changes_in_node",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "changes_in_stru",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "special_forms",
+                        "format": "default"
+                    },
+                    {
+                        "type": "boolean",
+                        "name": "dislocation_of",
+                        "format": "default"
+                    },
+                    {
+                        "type": "boolean",
+                        "name": "exclusion_of_no",
+                        "format": "default"
+                    },
+                    {
+                        "type": "integer",
+                        "name": "no_of_nodes_in",
+                        "format": "default"
+                    },
+                    {
+                        "type": "string",
+                        "name": "class",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            },
+            "profile": "tabular-data-resource",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "path": "data\\lymph.csv",
+            "name": "lymph"
+        }
+    ],
+    "sources": [
+        {
+            "title": "OpenML - lymph",
+            "path": "https://www.openml.org/d/10"
+        }
+    ],
+    "name": "lymp",
+    "licences": [
+        {
+            "title": "Open Data Commons Public Domain Dedication and Licence (PDDL)",
+            "path": "http://opendatacommons.org/licenses/pddl/",
+            "name": "odc-pddl"
+        }
+    ],
+    "profile": "tabular-data-package"
+}
