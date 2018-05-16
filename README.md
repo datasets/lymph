@@ -1,4 +1,4 @@
-This dataset contains occurrences of lymph cancer in people
+This dataset contains occurrences of lymph cancer in people.
 
 ## Data
 
